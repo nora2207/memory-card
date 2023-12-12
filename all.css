@@ -3,6 +3,11 @@ dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoo
 /* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;
 }table {border-collapse: collapse;border-spacing: 0;}
 
+/*  網頁檢視框線  */
+/* *{
+  outline:1px solid #000
+} */
+
 #wrapper{ 
 	width: 700px;
 	height: 600px;
@@ -15,6 +20,17 @@ h3 {
   font-weight: bold;
   font-size: 30px;
   padding-top: 20px;
+}
+.restartClick {
+  font-size: 18px;
+  float: right;
+  margin-right: 50px;
+  padding: 3px;
+  color: #e95098;
+  background: #f3d07f;
+  border: 2px solid #c12222;
+  border-radius: 3px;
+  cursor: pointer;
 }
 #game{
 	top: 70px;
