@@ -96,3 +96,40 @@ h3 {
   width: 100%;
   text-align: center;
 }
+.pic-left {
+  float: left;
+  position: relative;
+}
+.pic-right {
+  float: right;
+  position: relative;
+}
+.pic {
+  width: 230px;
+  height: auto;
+  position: absolute;
+}
+.pic1 {
+  top: 60px;
+  left: 10px;
+}
+.pic2 {
+  top: 240px;
+  left: 10px;
+}
+.pic3 {
+  top: 420px;
+  left: 10px;
+}
+.pic4 {
+  top: 60px;
+  right: 10px;
+}
+.pic5 {
+  top: 240px;
+  right: 10px;
+}
+.pic6 {
+  top: 420px;
+  right: 10px;
+}
