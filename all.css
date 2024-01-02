@@ -8,7 +8,8 @@ dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoo
   outline:1px solid #000
 } */
 
-#wrapper{ 
+#wrapper{
+  font-family: 'Noto Sans TC', sans-serif;
 	width: 700px;
 	height: 600px;
 	position: relative;
@@ -20,6 +21,7 @@ h3 {
   font-weight: bold;
   font-size: 30px;
   padding-top: 20px;
+  letter-spacing: 3px;
 }
 .restartClick {
   font-size: 18px;
